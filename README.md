@@ -22,10 +22,30 @@ _Use GitHub Actions to publish your project to a Docker image._
 -->
 
 ## Step 1: Create the workflow file
-
+<!---
 _Welcome to "Publish packages"! :wave:_
+--->
+#### [_Welcome to "expert-system"_](http://h6.gh-pages.vscode.gh.py)
 
-First, take a moment to examine the image below. It shows the relationship between _continuous integration_, _continuous delivery_ and _continuous deployment_.
+First, take a moment to examine the image
+- [_main_](http://i.imgur.com/gh-action1.1.0.0)
+  | code | 1.0.0 | CODESPACE | action |
+  | - | - | - | - |
+  |  deploy | 1.0.1 | .gitignore | debug |
+  |  -------------------------------- | line | tab | commit |
+  | <code> ================== </code> | line | space | integration |
+  | *****Codebuild 1.0.0 example***** |
+
+
+  
+- [_build_](http://i.imgur.com/gh.action2.1.0.0)
+  | # [Codebuild](id:ftp://integration.vscode.web.dev) | <h6>action</h6>|
+  | - | - | 
+  | <deploy> =============== </deploy> |
+  | - [](ftp://i.imgur.img/com/xZCkjmU.png)
+  | <deploy> =============== </deploy> |
+
+below. It shows the relationship between _continuous integration_, _continuous delivery_ and _continuous deployment_.
 
 ![](https://i.imgur.com/xZCkjmU.png)
 
